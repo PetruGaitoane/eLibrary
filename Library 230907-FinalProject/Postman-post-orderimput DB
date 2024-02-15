@@ -1,0 +1,11 @@
+POST //http://localhost:8080/api/library/placeOrder
+JSON / BODY
+{
+    "fullName": "user I",
+    "fullAddress": "address 1",
+    "contactNumber": "0123456789",
+    "orderBookQuantityList": [{
+        "bookId": 1,
+        "quantity": 2
+    }]
+}

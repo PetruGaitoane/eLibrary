@@ -1,0 +1,10 @@
+POST //http://localhost:8080/api/library/books
+JSON / BODY
+{
+    "title": "BOOK 1",
+    "genre": "genre I",
+    "description": "Description 1",
+    "saleQuantity": 30,
+    "salePrice": 10,
+    "lendQuantity": 5
+}

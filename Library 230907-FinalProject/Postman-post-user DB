@@ -1,0 +1,30 @@
+POST //http://localhost:8080/api/library/users
+JSON / BODY
+ForAdmins
+{
+    "userFirstName": "aFNameI",
+    "userLastName": "aLNameI",
+    "userName": "admin",
+    "userPassword": "admin",
+    "userContactNumber": "9876543210",
+    "userEmail": "emaila1@admin.com"
+}
+
+ForUsers
+{
+    "userFirstName": "uFName",
+    "userLastName": "uLName",
+    "userName": "user",
+    "userPassword": "user",
+    "userContactNumber": "9876543210",
+    "userEmail": "email@user.com"
+}
+
+{
+    "userFirstName": "uFNameI",
+    "userLastName": "uLNameI",
+    "userName": "user1",
+    "userPassword": "user1",
+    "userContactNumber": "9876543210",
+    "userEmail": "email1@user.com"
+}
